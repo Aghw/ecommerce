@@ -1,0 +1,46 @@
+
+/**
+ ** menu
+ **/
+.main-menu {
+  background-color: rgb(69, 154, 211);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+  width: 100%;
+  padding: 0.001rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.main-menu li {
+  display: inline;
+
+  font-size: 1rem;
+  text-shadow: 0 0 0.1rem #333;
+}
+
+.main-menu a {
+  color: #F2F2F2;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+
+  display: inline-block;
+}
+
+.main-menu a:active {
+  background-color: #777;
+  border-radius: .5rem;
+  color: white;
+}
+
+
+
+.cart-info {
+  position: absolute;
+  right: 2rem;
+  top: .1rem;
+  color: white;
+}

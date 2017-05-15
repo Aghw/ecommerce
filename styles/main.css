@@ -247,6 +247,11 @@ input[type="submit"] {
 }
 
 @media (min-width: 300px) {
+  div[class^="con"] h2 {
+      color: orange;
+    }
+
+
   .sign-up-form {
     display: none;
   }
@@ -257,6 +262,10 @@ input[type="submit"] {
 }
 
 @media  (min-width: 500px) , (orientation: landscape) {
+  div[class^="con"] h2 {
+      color: blue;
+    }
+
   .sign-up-form {
     display: block;
   }
@@ -266,6 +275,11 @@ input[type="submit"] {
 }
 
 @media (min-width: 801px) {
+  div[class^="con"] h2 {
+      color: black;
+    }
+
+
   email-input {
     width: 50%;
   }

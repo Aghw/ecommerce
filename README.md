@@ -1,4 +1,4 @@
-# Description
+﻿# Description
 
 This is an assignment to build a responsive ecommerce web page. Nav and product container div will use flexbox. Sidebar/aside is a module that changes layout and location based on window size. Submitting the mailing list signup form results in user feedback on the page. Clicking a product's “add to cart” or “remove from cart” button updates cart count at top. 
 
@@ -70,4 +70,13 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing 
-[update this section with information about the testing steps you took to ensure site quality]
+
+To make sure everything on the webpages on a project I'm working on is working properly, from Atom, I bring up the webpage on local live server. I test the changes, or newly added features by following the steps shown below:
+Step 1) I check the newly added or updated aspect of the web page on my default web browser, which is Firefox. 
+Step 2) Then, I check if any of the older content of the web pages is still working properly or if it has been impacted by any of the changes I have made.
+Step 3) I test the web pages on different web browser (usually Google Chrome).
+Step 4) I change the size (width) of the web browsers to check if any of changes are working as intented on small size, medium size, and large size windows.
+Step 5) I update or upload the project to my github repository and bring the live website.
+Step 6) I test the github live website of the project on Firefox, Chrome, and MS Edge web browsers on my computer and check if everything is working as I expected them work.
+Step 7) Once, I'm happy with the look and feel on differnt web browsers and different sizes of windows on my computer, I test the github live website on my mini-ipad and check if the nav, media, grid, etc works as expected.
+Step 8) Finally, I check the github live website on my old iphone-4 to see if the nav, and the content look as I expected them to look, and all the links work properly.

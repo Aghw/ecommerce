@@ -61,7 +61,7 @@ function addRemoveItem(val) {
 function addToCart(val1, val2, val3) {
   var length = cart.length;
   var isAdded = false;
-
+  var cartItems = document.getElementById('cart-items');
 
   for(var i = 0; i < length && !isAdded; i++) {
     var scarf = cart[i];
@@ -79,7 +79,8 @@ function addToCart(val1, val2, val3) {
   }
 
   var cartlength = cart.length;
-  console.log("The cart has: " + cartlength + " items.");
+  cartItems.innerHTML = "(" + cartlength + ")";
+  // console.log("The cart has: " + cartlength + " items.");
 }
 
 
@@ -90,7 +91,7 @@ function addToCart(val1, val2, val3) {
 function removeFromCart(val1, val2, val3) {
   var length = cart.length;
   var isFound = false;
-
+  var cartItems = document.getElementById('cart-items');
 
   for(var i = 0; i < length && !isFound; i++) {
     var scarf = cart[i];
@@ -104,7 +105,8 @@ function removeFromCart(val1, val2, val3) {
   }
 
   var cartlength = cart.length;
-  console.log("The cart has: " + cartlength + " items.");
+  cartItems.innerHTML = "(" + cartlength + ")";
+  // console.log("The cart has: " + cartlength + " items.");
 }
 
 
